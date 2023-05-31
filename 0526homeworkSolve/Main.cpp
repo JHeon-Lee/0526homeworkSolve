@@ -38,7 +38,7 @@ int main()
 }
 
 
-void Start()
+void Start() // 콘솔 게임 도입부는 왠만하면 이렇게 짜는게 좋다.
 {
     system("title TypingGame");
     system("mode con:cols=60 lines=30");
